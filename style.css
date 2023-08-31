@@ -1,0 +1,15 @@
+/**
+ * Theme Name:     Astra Child
+ * Author:         Brainstorm Force
+ * Template:       astra
+ * Text Domain:	   astra-child
+ * Description:    Astra is fast, fully customizable
+ */
+
+.learndash-shortcode-wrap-course_content-1395_2 .ld-item-list.ld-lesson-list{
+	display: none;
+}
+
+pre {
+	font-family: 'Inter',sans-serif !important;
+}
