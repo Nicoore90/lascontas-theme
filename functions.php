@@ -70,7 +70,7 @@ add_shortcode('test_group', 'test_group');
 function lascontas_enqueue_assets() {
 	wp_enqueue_style( 'carousel-css',  get_theme_file_uri() . '/assets/css/carousel.css');
    	wp_enqueue_script( 'carousel-js', get_theme_file_uri() .  '/assets/js/carousel.js');
-	wp_enqueue_script( 'carousel-js', get_theme_file_uri() .  '/assets/js/cursos.js');
+	wp_enqueue_script( 'cursos-js', get_theme_file_uri() .  '/assets/js/cursos.js');
 }
 
 add_action('wp_enqueue_scripts', 'lascontas_enqueue_assets');
